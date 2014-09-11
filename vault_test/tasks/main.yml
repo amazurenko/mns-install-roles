@@ -1,0 +1,4 @@
+- name: Copying conf file
+  template: 
+    src=pass.conf dest=/root/pass.conf
+  sudo: yes
